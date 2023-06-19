@@ -10,11 +10,11 @@ namespace SnakeAndLadder
     {
         static void Main(string[] args)
         { 
-            //welcome message
             Console.WriteLine("Welcome to Snake & Ladder problem");
             
             SnakeLadder snakeLadder = new SnakeLadder();
             snakeLadder.StartPosition();
+            snakeLadder.RollsDie();
             Console.ReadLine();
         }
     }
